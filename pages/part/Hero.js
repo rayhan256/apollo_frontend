@@ -20,11 +20,8 @@ export default function Hero() {
               <Fade up>
                 <div>
                   <div className="text-center text-lg-start">
-                    <Link
-                      href="#about"
-                      className="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center"
-                    >
-                      <div>
+                    <Link href="#about">
+                      <div className="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                         <span>Get Started</span>
                         <i className="bi bi-arrow-right"></i>
                       </div>

@@ -24,11 +24,8 @@ export default function About() {
                   corrupti.
                 </p>
                 <div className="text-center text-lg-start">
-                  <Link
-                    href="#"
-                    className="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center"
-                  >
-                    <div>
+                  <Link href="#">
+                    <div className="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                       <span>Read More</span>
                       <i className="bi bi-arrow-right"></i>
                     </div>
