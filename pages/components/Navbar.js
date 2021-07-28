@@ -46,8 +46,13 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link className="getstarted scrollto" href="#about">
-                  Get Started
+                <Link href="#about">
+                  <div
+                    className="getstarted scrollto"
+                    style={{ cursor: "pointer" }}
+                  >
+                    Get Started
+                  </div>
                 </Link>
               </li>
             </ul>
