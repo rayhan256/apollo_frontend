@@ -1,5 +1,6 @@
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
+import Link from "next/link";
 export default function Hero() {
   return (
     <div>
@@ -19,13 +20,15 @@ export default function Hero() {
               <Fade up>
                 <div>
                   <div className="text-center text-lg-start">
-                    <a
+                    <Link
                       href="#about"
                       className="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center"
                     >
-                      <span>Get Started</span>
-                      <i className="bi bi-arrow-right"></i>
-                    </a>
+                      <div>
+                        <span>Get Started</span>
+                        <i className="bi bi-arrow-right"></i>
+                      </div>
+                    </Link>
                   </div>
                 </div>
               </Fade>

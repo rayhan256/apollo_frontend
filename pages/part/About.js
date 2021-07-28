@@ -1,6 +1,6 @@
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
-
+import Link from "next/link";
 export default function About() {
   return (
     <div>
@@ -24,13 +24,15 @@ export default function About() {
                   corrupti.
                 </p>
                 <div className="text-center text-lg-start">
-                  <a
+                  <Link
                     href="#"
                     className="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center"
                   >
-                    <span>Read More</span>
-                    <i className="bi bi-arrow-right"></i>
-                  </a>
+                    <div>
+                      <span>Read More</span>
+                      <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>

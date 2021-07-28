@@ -4,10 +4,12 @@ export default function Navbar() {
     <div>
       <header id="header" className="header fixed-top">
         <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
-          <a href="/" className="logo d-flex align-items-center">
-            <img src="/assets/img/asset-logo.png" alt="" />
-            <span>Apollo</span>
-          </a>
+          <Link href="/">
+            <div className="logo d-flex align-items-center">
+              <img src="/assets/img/asset-logo.png" alt="" />
+              <span>Apollo</span>
+            </div>
+          </Link>
           <nav id="navbar" className="navbar">
             <ul>
               <li>

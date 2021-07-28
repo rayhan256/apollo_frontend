@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 export default function PricingBox({
   color,
   plan,
@@ -21,9 +22,9 @@ export default function PricingBox({
           <li className="na">Pharetra massa</li>
           <li className="na">Massa ultricies mi</li>
         </ul>
-        <a href="#" className="btn-buy">
+        <Link href="#" className="btn-buy">
           Buy Now
-        </a>
+        </Link>
       </div>
     </div>
   );

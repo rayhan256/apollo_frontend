@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 export default function ServiceBox({
   title = "Nesciunt Mete",
   desc = "Provident nihil minus qui consequatur non omnis maiores.",
@@ -14,9 +14,11 @@ export default function ServiceBox({
         <i className="ri-discuss-line icon"></i>
         <h3>{title}</h3>
         <p>{desc}</p>
-        <a href="#" className="read-more">
-          <span>Read More</span> <i className={icon}></i>
-        </a>
+        <Link href="#" className="read-more">
+          <div>
+            <span>Read More</span> <i className={icon}></i>
+          </div>
+        </Link>
       </div>
     </div>
   );
