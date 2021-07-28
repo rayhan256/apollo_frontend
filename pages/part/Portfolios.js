@@ -20,8 +20,11 @@ export default function Portfolios() {
                 data-aos-delay="200"
               >
                 {[...Array(10)].map((i) => (
-                  <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <PortfolioWrap key={i} />
+                  <div
+                    className="col-lg-4 col-md-6 portfolio-item filter-app"
+                    key={i}
+                  >
+                    <PortfolioWrap />
                   </div>
                 ))}
               </div>
