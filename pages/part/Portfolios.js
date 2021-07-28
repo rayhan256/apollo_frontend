@@ -21,7 +21,7 @@ export default function Portfolios() {
               >
                 {[...Array(10)].map((i) => (
                   <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <PortfolioWrap />
+                    <PortfolioWrap key={i} />
                   </div>
                 ))}
               </div>
