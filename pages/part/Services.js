@@ -11,7 +11,6 @@ export default function Services() {
               <h2>Services</h2>
               <p>Veritatis et dolores facere numquam et praesentium</p>
             </header>
-
             <div className="row gy-4">
               <Fade up>
                 <div className="col-lg-4 col-md-6">

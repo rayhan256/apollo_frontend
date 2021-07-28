@@ -4,6 +4,8 @@ import About from "../part/About";
 import Values from "../part/Values";
 import Counts from "../part/Counts";
 import Services from "../part/Services";
+import Pricing from "../part/Pricing";
+import Portfolios from "../part/Portfolios";
 export default function Home() {
   return (
     <div>
@@ -14,6 +16,8 @@ export default function Home() {
         <Values />
         <Counts />
         <Services />
+        <Pricing />
+        <Portfolios />
       </main>
     </div>
   );
