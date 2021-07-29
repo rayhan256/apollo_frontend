@@ -6,6 +6,9 @@ import Counts from "../part/Counts";
 import Services from "../part/Services";
 import Pricing from "../part/Pricing";
 import Portfolios from "../part/Portfolios";
+import Teams from "../part/Teams";
+import Contact from "../part/Contact";
+import Footer from "../part/Footer";
 export default function Home() {
   return (
     <div>
@@ -18,7 +21,10 @@ export default function Home() {
         <Services />
         <Pricing />
         <Portfolios />
+        <Teams />
+        <Contact />
       </main>
+      <Footer />
     </div>
   );
 }

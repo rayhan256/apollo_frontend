@@ -37,9 +37,9 @@ export default function Navbar() {
                   Team
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="blog.html">Blog</Link>
-              </li>
+              </li> */}
               <li>
                 <Link className="nav-link scrollto" href="#contact">
                   Contact
