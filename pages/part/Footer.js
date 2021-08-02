@@ -60,19 +60,19 @@ export default function Footer() {
                     <i className="bi bi-chevron-right"></i> <a href="#">Home</a>
                   </li>
                   <li>
-                    <i className="bi bi-chevron-right"></i>{" "}
+                    <i className="bi bi-chevron-right"></i>
                     <a href="#">About us</a>
                   </li>
                   <li>
-                    <i className="bi bi-chevron-right"></i>{" "}
+                    <i className="bi bi-chevron-right"></i>
                     <a href="#">Services</a>
                   </li>
                   <li>
-                    <i className="bi bi-chevron-right"></i>{" "}
+                    <i className="bi bi-chevron-right"></i>
                     <a href="#">Terms of service</a>
                   </li>
                   <li>
-                    <i className="bi bi-chevron-right"></i>{" "}
+                    <i className="bi bi-chevron-right"></i>
                     <a href="#">Privacy policy</a>
                   </li>
                 </ul>
@@ -82,23 +82,19 @@ export default function Footer() {
                 <h4>Our Services</h4>
                 <ul>
                   <li>
-                    <i className="bi bi-chevron-right"></i>{" "}
+                    <i className="bi bi-chevron-right"></i>
                     <a href="#">Web Design</a>
                   </li>
                   <li>
-                    <i className="bi bi-chevron-right"></i>{" "}
+                    <i className="bi bi-chevron-right"></i>
                     <a href="#">Web Development</a>
                   </li>
                   <li>
-                    <i className="bi bi-chevron-right"></i>{" "}
+                    <i className="bi bi-chevron-right"></i>
                     <a href="#">Product Management</a>
                   </li>
                   <li>
-                    <i className="bi bi-chevron-right"></i>{" "}
-                    <a href="#">Marketing</a>
-                  </li>
-                  <li>
-                    <i className="bi bi-chevron-right"></i>{" "}
+                    <i className="bi bi-chevron-right"></i>
                     <a href="#">Graphic Design</a>
                   </li>
                 </ul>
@@ -107,14 +103,14 @@ export default function Footer() {
               <div className="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                 <h4>Contact Us</h4>
                 <p>
-                  A108 Adam Street <br />
-                  New York, NY 535022
+                  Jalan Cluster Bali II No. A.39, <br /> Kecamatan Kiaracondong,
+                  Kota Bandung, Jawa Barat
                   <br />
-                  United States <br />
+                  Indonesia <br />
                   <br />
-                  <strong>Phone:</strong> +1 5589 55488 55
+                  <strong>Phone:</strong> +62 821-1692-1204
                   <br />
-                  <strong>Email:</strong> info@example.com
+                  <strong>Email:</strong> serviceapollo.idn@gmail.com
                   <br />
                 </p>
               </div>
@@ -124,9 +120,9 @@ export default function Footer() {
 
         <div className="container">
           <div className="copyright">
-            &copy; Copyright{" "}
+            &copy; Copyright
             <strong>
-              <span>Apollo</span>
+              <span> Apollo</span>
             </strong>
             . All Rights Reserved
           </div>

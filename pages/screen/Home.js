@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../part/Hero";
 import About from "../part/About";
 import Values from "../part/Values";
-import Counts from "../part/Counts";
+// import Counts from "../part/Counts";
 import Services from "../part/Services";
 import Pricing from "../part/Pricing";
 import Portfolios from "../part/Portfolios";
@@ -17,7 +17,7 @@ export default function Home() {
       <main id="main">
         <About />
         <Values />
-        <Counts />
+        {/* <Counts /> */}
         <Services />
         <Pricing />
         <Portfolios />

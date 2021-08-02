@@ -1,26 +1,20 @@
 import React from "react";
 import Link from "next/link";
-export default function PricingBox({
-  color,
-  plan,
-  feature1,
-  feature2,
-  feature3,
-}) {
+export default function PricingBox({ color, plan, feature = [], price }) {
   return (
     <div>
       <div className="box">
-        <h3 style={{ color: "#07d5c0" }}>Free Plan</h3>
+        <h3 style={{ color: color }}>{plan}</h3>
         <div className="price">
-          <sup>$</sup>0<span> / mo</span>
+          <sup>$</sup>
+          {price}
+          <span></span>
         </div>
         <img src="assets/img/pricing-free.png" className="img-fluid" alt="" />
         <ul>
-          <li>Aida dere</li>
-          <li>Nec feugiat nisl</li>
-          <li>Nulla at volutpat dola</li>
-          <li className="na">Pharetra massa</li>
-          <li className="na">Massa ultricies mi</li>
+          {feature.map((val) => (
+            <li key={Math.random()}>{val}</li>
+          ))}
         </ul>
         <Link href="#" className="btn-buy">
           Buy Now

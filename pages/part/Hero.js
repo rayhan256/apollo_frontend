@@ -13,8 +13,8 @@ export default function Hero() {
               </Fade>
               <Fade up>
                 <h2>
-                  We are team of talented designers making websites with
-                  Bootstrap
+                  We are team of talented developers making websites and making
+                  your idea live with us.
                 </h2>
               </Fade>
               <Fade up>

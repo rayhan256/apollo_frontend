@@ -36,8 +36,10 @@ export default function Teams() {
                       </div>
                     </div>
                     <div className="member-info">
-                      <h4>Walter White</h4>
-                      <span>Chief Executive Officer</span>
+                      <h4>Rayhan Rahmat Aziz</h4>
+                      <span>
+                        Programmer <br /> Marketing
+                      </span>
                       <p>
                         Velit aut quia fugit et et. Dolorum ea voluptate vel
                         tempore tenetur ipsa quae aut. Ipsum exercitationem iure
@@ -76,8 +78,10 @@ export default function Teams() {
                     </div>
                   </div>
                   <div className="member-info">
-                    <h4>Sarah Jhonson</h4>
-                    <span>Product Manager</span>
+                    <h4>Ai Tiya Suryani</h4>
+                    <span>
+                      Designer <br /> Marketing
+                    </span>
                     <p>
                       Quo esse repellendus quia id. Est eum et accusantium
                       pariatur fugit nihil minima suscipit corporis. Voluptate
@@ -115,8 +119,11 @@ export default function Teams() {
                     </div>
                   </div>
                   <div className="member-info">
-                    <h4>William Anderson</h4>
-                    <span>CTO</span>
+                    <h4>Iqbal Zaenal Muttaqin</h4>
+                    <span>
+                      Programmer <br />
+                      Marketing
+                    </span>
                     <p>
                       Vero omnis enim consequatur. Voluptas consectetur unde qui
                       molestiae deserunt. Voluptates enim aut architecto porro
@@ -154,8 +161,11 @@ export default function Teams() {
                     </div>
                   </div>
                   <div className="member-info">
-                    <h4>Amanda Jepson</h4>
-                    <span>Accountant</span>
+                    <h4>Fachrizal Abi</h4>
+                    <span>
+                      Designer <br />
+                      Marketing
+                    </span>
                     <p>
                       Rerum voluptate non adipisci animi distinctio et deserunt
                       amet voluptas. Quia aut aliquid doloremque ut possimus

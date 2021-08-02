@@ -17,9 +17,8 @@ export default function Contact() {
                     <i className="bi bi-geo-alt"></i>
                     <h3>Address</h3>
                     <p>
-                      A108 Adam Street,
-                      <br />
-                      New York, NY 535022
+                      Jalan Cluster Bali II No. A.39, <br /> Kecamatan
+                      Kiaracondong, Kota Bandung, Jawa Barat
                     </p>
                   </div>
                 </div>
@@ -28,9 +27,9 @@ export default function Contact() {
                     <i className="bi bi-telephone"></i>
                     <h3>Call Us</h3>
                     <p>
-                      +1 5589 55488 55
+                      +62 858-8271-5554
                       <br />
-                      +1 6678 254445 41
+                      +62 821-1692-1204
                     </p>
                   </div>
                 </div>
@@ -38,11 +37,7 @@ export default function Contact() {
                   <div className="info-box">
                     <i className="bi bi-envelope"></i>
                     <h3>Email Us</h3>
-                    <p>
-                      info@example.com
-                      <br />
-                      contact@example.com
-                    </p>
+                    <p>serviceapollo.idn@gmail.com</p>
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -58,7 +53,6 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-
             <div className="col-lg-6">
               <form
                 action="forms/contact.php"
@@ -75,7 +69,6 @@ export default function Contact() {
                       required
                     />
                   </div>
-
                   <div className="col-md-6 ">
                     <input
                       type="email"
@@ -85,7 +78,6 @@ export default function Contact() {
                       required
                     />
                   </div>
-
                   <div className="col-md-12">
                     <input
                       type="text"
@@ -95,7 +87,6 @@ export default function Contact() {
                       required
                     />
                   </div>
-
                   <div className="col-md-12">
                     <textarea
                       className="form-control"

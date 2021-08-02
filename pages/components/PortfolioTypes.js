@@ -11,8 +11,9 @@ export default function PortfolioTypes() {
                 All
               </li>
               <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-card">Mobile</li>
               <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-logo">Logo</li>
             </ul>
           </div>
         </div>
