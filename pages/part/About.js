@@ -17,8 +17,8 @@ export default function About() {
                 <p>
                   Apollo is a startup engaged in graphic design and information
                   technology. if you want to grow your business, have your own
-                  profile page, and have a logo for your business. Then you're
-                  in the right place.
+                  profile page, and have a logo for your business. Then
+                  you&apos;re in the right place.
                 </p>
                 <div className="text-center text-lg-start">
                   <Link href="#">

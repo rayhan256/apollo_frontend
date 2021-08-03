@@ -63,7 +63,7 @@ export default function Pricing() {
               <div className="row gy-4" data-aos="fade-left">
                 {features.map((val) => (
                   <Zoom in>
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-4 col-md-6" key={Math.random()}>
                       <PricingBox
                         color={val.color}
                         plan={val.name}
