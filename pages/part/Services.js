@@ -9,39 +9,43 @@ export default function Services() {
           <div className="container">
             <header className="section-header">
               <h2>Services</h2>
-              <p>Veritatis et dolores facere numquam et praesentium</p>
+              <p>This Is The Service We Offer For Your Business</p>
             </header>
             <div className="row gy-4">
               <Fade up>
                 <div className="col-lg-4 col-md-6">
-                  <ServiceBox />
+                  <ServiceBox title="Web Application" color="orange" />
                 </div>
               </Fade>
               <Fade up>
                 <div className="col-lg-4 col-md-6">
-                  <ServiceBox icon="bi bi-arrow-right" color="orange" />
+                  <ServiceBox
+                    icon="bi bi-arrow-right"
+                    color="blue"
+                    title="Mobile Application"
+                  />
                 </div>
               </Fade>
               <Fade up>
                 <div className="col-lg-4 col-md-6">
-                  <ServiceBox color="green" />
+                  <ServiceBox color="green" title="Web Design" />
                 </div>
               </Fade>
               <Fade up>
                 <div className="col-lg-4 col-md-6">
-                  <ServiceBox color="red" />
+                  <ServiceBox color="red" title="Logo Design" />
                 </div>
               </Fade>
               <Fade up>
                 <div className="col-lg-4 col-md-6">
-                  <ServiceBox color="purple" />
+                  <ServiceBox color="purple" title="Product Design" />
                 </div>
               </Fade>
-              <Fade up>
+              {/* <Fade up>
                 <div className="col-lg-4 col-md-6">
                   <ServiceBox color="pink" />
                 </div>
-              </Fade>
+              </Fade> */}
             </div>
           </div>
         </Fade>

@@ -24,7 +24,7 @@ export default function Portfolios() {
                     className="col-lg-4 col-md-6 portfolio-item filter-app"
                     key={i}
                   >
-                    <PortfolioWrap key={i} />
+                    <PortfolioWrap />
                   </div>
                 ))}
               </div>
