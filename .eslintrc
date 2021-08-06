@@ -6,6 +6,7 @@
     "@next/next/no-css-tags": "off",
     "@next/next/no-page-custom-font": "off",
     "@next/next/google-font-display": "off",
-    "@next/next/link-passhref": "off"
+    "@next/next/link-passhref": "off",
+    "react/no-unescaped-entities": "off"
   }
 }
