@@ -45,6 +45,11 @@ export default function Index() {
       <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
       <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
       <script src="assets/js/main.js"></script>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-204283745-1"
+      ></script>
+      <script src="assets/js/google-analytics.js"></script>
     </div>
   );
 }

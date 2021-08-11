@@ -33,9 +33,8 @@ export default function Footer() {
                   <span>Apollo</span>
                 </a>
                 <p>
-                  Cras fermentum odio eu feugiat lide par naso tierra. Justo
-                  eget nada terra videa magna derita valies darta donna mare
-                  fermentum iaculis eu non diam phasellus.
+                  We are team of talented developers making websites and making
+                  your idea live with us.
                 </p>
                 <div className="social-links mt-3">
                   <a href="#" className="twitter">

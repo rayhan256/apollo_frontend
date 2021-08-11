@@ -57,7 +57,7 @@ export default function Pricing() {
           <div className="container" data-aos="fade-up">
             <header className="section-header">
               <h2>Pricing</h2>
-              <p>Check our Pricing</p>
+              <p>Check Our Basic Pricing</p>
             </header>
             <Fade left>
               <div className="row gy-4" data-aos="fade-left">
